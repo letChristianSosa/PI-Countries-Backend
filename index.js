@@ -5,6 +5,7 @@ const { Country } = require('./src/db.js');
 const axios = require('axios');
 
 // Inyectar los datos de la API en mi BD
+console.log('hola')
 
 const createDB = async () => {
   await axios.get(`https://restcountries.com/v3.1/all`)
